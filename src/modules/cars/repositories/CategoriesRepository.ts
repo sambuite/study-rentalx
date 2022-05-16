@@ -23,7 +23,7 @@ export class CategoriesRepository implements ICategoriesRepository {
     this.categories.push(category);
   }
 
-  index(): Category[] {
+  list(): Category[] {
     return this.categories;
   }
 
